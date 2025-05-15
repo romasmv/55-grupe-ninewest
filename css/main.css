@@ -26,6 +26,8 @@ body {
     margin-top: 20px;
     width: 100%;
     max-width: 1700px;
+    border-top: 2px solid black;
+    padding-top: 10px;
 }
 
 .top-column-nav{
