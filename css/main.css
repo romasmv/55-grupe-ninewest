@@ -177,6 +177,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .smalpics4sec2{
@@ -202,9 +203,11 @@ body {
 }
 
 .text-right{
-    width: 23%;
-    justify-content: center;
-    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     padding-bottom: 15px;
 } 
 
@@ -212,6 +215,8 @@ body {
     font-size: 25px;
 }
 .text-right p{
+    text-align: center;
+    width: 50%;
     font-size: 22px;
     line-height: 2;
     margin-bottom: 20px;
@@ -270,6 +275,8 @@ body {
 .row-left img{
     width: 850px;
 }
+
+/* NEW */
 
 
 
