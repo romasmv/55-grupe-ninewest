@@ -276,8 +276,152 @@ body {
     width: 850px;
 }
 
-/* NEW */
+.section4{
+    width: 1700px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
 
+.smalpicsec4{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
 
+.botom-column-section4{
+    text-align: center;
+    margin-bottom: 80px;
+}
 
+.botom-column-section4 p{
+    font-size: 18px;
+    margin: 20px;
+}
+
+.botom-column-section4 a{
+    font-size: 18px;
+    color: black;
+}
+
+.footer-sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#CDD3E0 ;
+    gap: 50px;
+}
+
+.recieve{
+    text-align: center;
+}
+
+.recieve h3{
+    font-size: 45px;
+}
+
+.recieve P{
+    font-size: 25px;
+}
+.recieve a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.text1{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px;
+}
+
+.text1 p{
+    font-size: 28px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 300px;
+}
+
+.left-column-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: flex-start;
+}
+
+.left-column-footer h3{
+    margin-bottom: 25px;
+}
+
+.enter-email{
+    margin-left: 40px;
+}
+
+.enter-email input{
+    padding: 10px 25px;
+}
+
+.enter-email button{
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+}
+
+.centre-column-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.centre-column-footer h3{
+    margin-bottom: 12px;
+}
+
+.costumer-care{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.costumer-care a{
+    margin-bottom: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.right-column-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.order-assistance{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.right-column-footer h3{
+    margin-bottom: 15px;
+}
+
+.order-assistance a{
+    margin-bottom: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.order-assistance button{
+    margin-bottom: 20px;
+    padding: 10px 100px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
 
