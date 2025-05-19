@@ -1,0 +1,98 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1700px;
+    border-top: 2px solid black;
+    padding-top: 10px;
+}
+
+.top-column-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row ;
+    width: 100%;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 65px;
+    color: black;
+}
+
+.sing-in{
+    display: flex;
+}
+
+.sing-in p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sing-in a{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+.bottom-column-nav{
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    align-items: end;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    margin-right: 35px;
+    width: 60%;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    align-items: center;
+    width: 40%;
+}
+
+.search input{
+    padding: 10px;
+    padding-right: 150px;
+}
+
+.search a {
+    margin-left: 18px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+
+}
