@@ -34,7 +34,7 @@
     .logo a{
         display: flex;
         justify-content: center;
-        font-size: 40px;
+        font-size: 50px;
     }
     
     .sing-in{
@@ -102,15 +102,25 @@
     }
 
     .shoes4pic {
-    gap: 10px;
+    width: 430px;
+    gap: 0px;
     margin-top: 0em;
     margin-bottom: 2em;
     }
     .smalpics4 img{
-    width: 100%;
+    width: 25%;
     }
     .smalpics4 p{
         font-size: 14px;
+
+    }
+
+    .top-column-sec2{
+        flex-wrap: wrap;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
 }
