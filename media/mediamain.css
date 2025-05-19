@@ -88,10 +88,6 @@
     font-size: 20px;
     }
 
-    .search :nth-child(2) {
-        color: red;
-    }
-
     .section1{
         width: 430px;
         flex-wrap: wrap
@@ -156,8 +152,8 @@
     .midle-column-sec2 a{
         font-size: 14px;
         text-align: center;
-        color: #D8DFF9;
         padding-top: 20px;
+        line-height: 1.4;
     }
     
     .bottom-column-sec2{
@@ -184,5 +180,25 @@
     .smalpics4sec2 img{
         width: 150px;
     }
+   
+    .section3{
+      width: 430px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row-left{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row-right{
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+
+
 }
 
