@@ -20,7 +20,7 @@
 
 }
 
-@media (max-width: 330px) {
+@media (max-width: 930px) {
     .main-header{
     margin-top: 0px;
     border-top: 2px solid black;
