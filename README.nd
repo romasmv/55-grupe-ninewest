@@ -5,7 +5,7 @@
 
 # Serlokas
 
-_website design project_
+_one scroll website design project +sing in/+sing up forms _
 
 <br>
 
@@ -20,8 +20,12 @@ Design: ![alt text](./original-design.png)
 ## 🎯 Project features/goals
 
 -   Github pages
--   no responsive design
--   inline CSS
+-   responsive design
+-   fixed width and center of the sceen
+-   social icons (FontAwesome, etc)
+-   Google Fonts
+-   favicon
+-   HTML forms
 
 ## 🧰 Getting Started
 
